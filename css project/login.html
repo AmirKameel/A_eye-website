@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Login Interface</title>
+<link href="login.css" rel="stylesheet"/>
+</head>
+<body>
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '65f5aa77ea2e9676c9f959fd' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+<div class="login-background">
+<div class="login-container">
+<h1>Login</h1>
+<form class="login-form">
+<div class="input-group">
+<label for="username">Username</label>
+<input id="username" name="username" placeholder="Enter username" type="text"/>
+</div>
+<div class="input-group">
+<label for="password">Password</label>
+<input id="password" name="password" placeholder="Enter password" type="password"/>
+</div>
+<div class="remember-me">
+<input id="remember" name="remember" type="checkbox"/>
+<label for="remember">Remember me</label>
+</div>
+<a class="forgot-password" href="#">Forgot password?</a>
+<button class="login-button" type="submit">Login</button>
+<p class="register-prompt">Don't have an account? <a class="register-link" href="#">Register</a></p>
+</form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+/* Styles for the top section */
+* {
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  .btn {
+    display: inline-block;
+    background: var(--color-white);
+    color: var(--color-black);
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: var(--transition);
+  }
+  
+  .btn:hover {
+    background: transparent;
+    color: var(--color-white);
+    border-color: var(--color-white);
+  }
+  
+  .btn-primary {
+    background: var(--color-danger);
+    color: var(--color-white);
+  }
+  
+  nav {
+    background: transparent;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+  }
+  
+  /* change navbar styles on scroll using javascript */
+  .window-scroll {
+    background: var(--color-primary);
+    box-shadow: 0 1rem 2rem rgba(34, 6, 50, 0.2);
+  }
+  
+  .nav__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav button {
+    display: none;
+  }
+  
+  .nav__menu {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+  
+  .nav__menu a {
+    font-size: 0.9rem;
+    transition: var(--transition);
+  }
+  
+  .nav__menu a:hover {
+    color: var(--color-bg2);
+  
+  }
+  
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .contact-section {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+  }
+  
+  .contact-section h2 {
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .contact-item {
+    background-color: #240a42;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+  }
+  
+  .contact-item h3 {
+    margin-top: 0;
+  }
+  
+  .message-us {
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+  }
+  
+  .message-us h3 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #2b175e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2b175e;
+  }
+  /* Styles for the top section */
+  * {
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  .btn {
+    display: inline-block;
+    background: var(--color-white);
+    color: var(--color-black);
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: var(--transition);
+  }
+  
+  .btn:hover {
+    background: transparent;
+    color: var(--color-white);
+    border-color: var(--color-white);
+  }
+  
+  .btn-primary {
+    background: var(--color-danger);
+    color: var(--color-white);
+  }

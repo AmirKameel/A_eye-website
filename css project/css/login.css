@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.login-background {
+    background-image: url('../img/playground\ 4.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    padding: 2rem;
+    border-radius: 10px;
+    width: 300px; /* Adjust as needed */
+    text-align: center;
+}
+
+.login-form h1 {
+    color: #4c4c4c; /* Dark text color for the heading */
+    margin-bottom: 1rem;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.25rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.remember-me {
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.remember-me input {
+    margin-right: 0.25rem;
+}
+
+.forgot-password {
+    display: block;
+    color: #4c4c4c;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #356389; /* Purple background for the button */
+    color: white;
+    cursor: pointer;
+}
+
+.register-prompt {
+    color: #4c4c4c;
+    font-size: 0.9rem;
+}
+
+.register-link {
+    color: #6a5acd; /* Purple text color for the 'Register' link */
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
